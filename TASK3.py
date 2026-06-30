@@ -6,7 +6,7 @@ import numpy as np
 
 model = YOLO("yolov8n.pt")
 
-st.title("Object Detection App using YOLOv8")
+st.title("Object Detection App")
 
 uploaded_file = st.file_uploader(
     "Upload an image",
